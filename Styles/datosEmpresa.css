@@ -1,0 +1,88 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+h2{
+    color: #2E8F9E;
+    margin-left: 50px;
+    margin-bottom: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+h4{
+    color: #2E8F9E;
+    
+    margin-top: 10px;
+    
+}
+
+input{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    margin-top: 30px;
+    margin-top: 10px;
+}
+
+select{
+    padding: 5px;
+    border-radius: 5px;   
+    margin-top: 30px;
+    width: 179px;
+}
+
+label{
+    display: flex;
+    width: 100%;
+    margin-left: 0px;
+    justify-content: space-between;
+    color: #2E8F9E;
+        
+}
+
+div.datosEmpresa{    
+    width: 100%;
+    
+    
+}
+
+div.datosEmpresa input{
+    margin-right: 100px;
+    margin-top: 0px;
+}
+
+div.datosEmpresa input:last-child{
+    padding-right: 0px;
+}
+
+div.contenedor{
+    display: flex;
+    width: 80%;
+    border: 3px solid black;
+    padding: 20px;
+    background-color: #F1F1F1;
+
+}
+
+div.contenedor2{
+    display: flex;
+    width: 82%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    border: 3px solid black;
+    margin-top: 10px;
+    padding-bottom: 30px;
+}
+
+
+
+select#numeros{
+    text-align: center;
+}

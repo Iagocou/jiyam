@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos de la Empresa</title>
+    <link rel="stylesheet" href="../Styles/datosEmpresa.css">
+    <script defer src="../Scripts/datosEmpresa.js"></script>
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <form action="" method="post">
+            <div class="datosEmpresa">
+                <h2>Datos de la Empresa</h2>
+                <input type="text" placeholder="Razon Social">
+                <input type="text" placeholder="CIF">
+                <input type="text" placeholder="Dirección">
+                <select name="" id="">
+                    <option selected value="Mercado Objtivo">Mercado Objetivo</option>
+                    <option value="Hombres">Hombres</option>
+                    <option value="Mujeres">Mujeres</option>
+                    <option value="Niños">Niños</option>
+                    <option value="Niñas">Niñas</option>
+                </select>
+
+
+            </div>
+
+
+
+            <br>
+            <br>
+
+            <div class="declaracionRenta">
+
+                <h2>Declaraciones de la Renta</h2>
+                <h4>Renta del Solicitante</h4>
+                <label class="general">Base liquidable general (casilla 450) <input type="text" placeholder="€"></label>
+                <label class="ahorro">Base liquidable del ahorro (casilla 455) <input type="text"
+                        placeholder="€"></label>
+                <input type="file">
+            </div>
+        </form>
+
+    </div>
+
+    <div class="contenedor2">
+
+        <h2>Numero de centros para los que solicita la ayuda</h2>
+        <select name="numeros" id="numeros">
+            <option selected disabled value="Elije">Elije Numero</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+        <h2>Al guardar los datos del solicitante podrá introducir datos de las ayudas</h2>
+
+    </div>
+
+    <div class="centros"></div>
+
+</body>
+
+</html>
